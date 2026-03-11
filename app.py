@@ -22,5 +22,10 @@ def products():
 def contact():
     return render_template('contact.html')
 
+# 👇 ADD THIS NEW ROUTE
+@app.route('/health')
+def health():
+    return "OK", 200
+
 if __name__ == '__main__':
     app.run(debug=True)
