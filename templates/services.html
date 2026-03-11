@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - SAI Wellness Centre</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="/">SAI Wellness</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Wellness Services</h1>
+        </div>
+    </section>
+
+    <section class="services-detailed">
+        <div class="container">
+            <div class="service-detailed-card">
+                <i class="fas fa-weight-scale"></i>
+                <h2>Weight Management</h2>
+                <p>Whether you want to lose, gain, or maintain weight, our personalized programs are designed to help you achieve sustainable results through proper nutrition and lifestyle modifications.</p>
+                <ul>
+                    <li>Personalized meal plans</li>
+                    <li>Regular progress tracking</li>
+                    <li>Lifestyle modification guidance</li>
+                    <li>Supportive community environment</li>
+                </ul>
+            </div>
+
+            <div class="service-detailed-card">
+                <i class="fas fa-child"></i>
+                <h2>Children Nutrition Support</h2>
+                <p>Specialized nutritional guidance for growing children, addressing picky eating, nutritional deficiencies, and establishing healthy eating habits early in life.</p>
+                <ul>
+                    <li>Age-appropriate nutrition plans</li>
+                    <li>Parent counseling sessions</li>
+                    <li>Healthy eating habit formation</li>
+                    <li>Growth and development support</li>
+                </ul>
+            </div>
+
+            <div class="service-detailed-card">
+                <i class="fas fa-stomach"></i>
+                <h2>Digestive Wellness Support</h2>
+                <p>Comprehensive support for better digestive health through natural approaches, proper food combinations, and lifestyle adjustments.</p>
+                <ul>
+                    <li>Gut health assessment</li>
+                    <li>Personalized dietary recommendations</li>
+                    <li>Food intolerance guidance</li>
+                    <li>Natural digestive support</li>
+                </ul>
+            </div>
+
+            <div class="service-detailed-card">
+                <i class="fas fa-family"></i>
+                <h2>Family Health Guidance</h2>
+                <p>Holistic wellness advice for the entire family, ensuring everyone from children to adults can thrive together.</p>
+                <ul>
+                    <li>Family meal planning</li>
+                    <li>Group wellness sessions</li>
+                    <li>Lifestyle guidance for all ages</li>
+                    <li>Preventive health strategies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="membership-cta">
+        <div class="container">
+            <h2>Join Our Morning Wellness Club</h2>
+            <p>₹6000 per month • Monday to Saturday • 8:00 AM - 10:30 AM</p>
+            <a href="/contact" class="btn btn-primary">Enroll Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>SAI Wellness Centre</h3>
+                    <p>Morning Community-Based Nutrition & Wellness Club</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/about">About Sravanti</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/products">Nutrition Products</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Club Hours</h4>
+                    <p>Monday - Saturday</p>
+                    <p>8:00 AM – 10:30 AM</p>
+                    <p class="small">(Visit on empty stomach)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="disclaimer">
+                    ⚖️ This centre provides nutrition and lifestyle support. 
+                    It is not a medical treatment facility. Nutritional supplements used are not medicines.
+                </p>
+                <p class="copyright">&copy; 2024 SAI Wellness Centre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
